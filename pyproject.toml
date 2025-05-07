@@ -1,8 +1,9 @@
 [tool.poetry]
-name = "ai-product-copilot"
+name = "ai_product_pilot"
 version = "0.1.0"
 description = "Un agent d'analyse de feedback utilisateur avec LangGraph et Supabase"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Charlie Quillard <charlie.quillard@gmail.com>"]
+packages = [{ include = "ai_product_pilot" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -11,6 +12,7 @@ uvicorn = "^0.27.1"
 pydantic = "^2.6.3"
 langchain = "^0.3.24"
 langchain-openai = "^0.3.15"
+langchain-community = "^0.3.23"
 langgraph = "^0.4.1"
 supabase = "^2.3.4"
 python-dotenv = "^1.0.1"

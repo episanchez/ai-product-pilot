@@ -1,7 +1,7 @@
 import pytest
 import asyncio
 from unittest.mock import patch, MagicMock
-from app.langgraph.nodes.prioritize import prioritize_stories
+from ai_product_pilot.langgraph.nodes.prioritize import prioritize_stories
 
 
 @pytest.mark.asyncio

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Feedback Analytics
 
 Un agent d'analyse de feedback utilisateur construit avec FastAPI, LangGraph et Supabase.
@@ -24,7 +23,4 @@ Un agent d'analyse de feedback utilisateur construit avec FastAPI, LangGraph et 
 ```bash
 git clone https://github.com/yourusername/feedback-analytics.git
 cd feedback-analytics
-=======
-# ai-product-pilot
-# ai-product-pilot
->>>>>>> b883b01 (Add Readme.md)
+```

@@ -1,5 +1,5 @@
 import pytest
-from app.services.scoring import calculate_rice_score, prioritize_stories, estimate_rice_parameters
+from ai_product_pilot.services.scoring import calculate_rice_score, prioritize_stories, estimate_rice_parameters
 
 
 def test_calculate_rice_score():
