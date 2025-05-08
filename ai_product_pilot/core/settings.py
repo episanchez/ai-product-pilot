@@ -15,8 +15,7 @@ class Settings(BaseSettings):
     
     # Supabase
     supabase_url: str = os.getenv("SUPABASE_URL", "")
-    supabase_service_key: str = os.getenv("SUPABASE_SERVICE_KEY", "")
-    supabase_anon_key: str = os.getenv("SUPABASE_ANON_KEY", "")
+    supabase_key: str = os.getenv("SUPABASE_KEY", "")
     
     # OpenAI
     openai_api_key: str = os.getenv("OPENAI_API_KEY", "")

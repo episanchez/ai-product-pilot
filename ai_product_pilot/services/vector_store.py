@@ -3,7 +3,7 @@ import json
 import uuid
 
 from langchain_openai import OpenAIEmbeddings
-from langchain.vectorstores.supabase import SupabaseVectorStore
+from langchain_community.vectorstores import SupabaseVectorStore
 from langchain.schema.document import Document
 
 from ai_product_pilot.lib.supabase import get_supabase_client

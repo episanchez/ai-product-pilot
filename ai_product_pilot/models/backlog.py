@@ -1,6 +1,5 @@
-import datetime
-from typing import Optional
-from pydantic import BaseModel, Field, List
+from typing import Optional, List
+from pydantic import BaseModel, Field
 
 class StoryBase(BaseModel):
     title: str = Field(description="Titre concis de la user story")
@@ -28,8 +27,6 @@ class StoryResponse(StoryBase):
     effort: float
     rice_score: float
     status: str
-    created_at: Optional[datetime] = None
-    updated_at: Optional[datetime] = None
     
     class Config:
         from_attributes = True
